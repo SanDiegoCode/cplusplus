@@ -10,28 +10,28 @@
         <meta name="description" content="A tutorial to c++">
       
       
-        <link rel="canonical" href="https://sdcoding.com/c++/">
+        <link rel="canonical" href="https://sdcoding.com/c++/cpp2/">
       
       
         <meta name="author" content="San Diego Code">
       
       
-        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <link rel="shortcut icon" href="../assets/images/favicon.png">
       
       <meta name="generator" content="mkdocs-0.16.3, mkdocs-material-1.8.0">
     
     
       
-        <title>C++ Tutorials</title>
+        <title>Lesson 2 - C++ Tutorials</title>
       
     
     
-      <script src="./assets/javascripts/modernizr-1df76c4e58.js"></script>
+      <script src="../assets/javascripts/modernizr-1df76c4e58.js"></script>
     
     
-      <link rel="stylesheet" href="./assets/stylesheets/application-bfecc7305d.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application-bfecc7305d.css">
       
-        <link rel="stylesheet" href="./assets/stylesheets/application-02c2a4388f.palette.css">
+        <link rel="stylesheet" href="../assets/stylesheets/application-02c2a4388f.palette.css">
       
     
     
@@ -45,7 +45,7 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     
     
-      <link rel="stylesheet" href="./compiler.css">
+      <link rel="stylesheet" href="../compiler.css">
     
     
   </head>
@@ -85,7 +85,7 @@
             
               
             
-            Home
+            Lesson 2
           
         </span>
       </div>
@@ -190,6 +190,30 @@
       
       
 
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../cpp1/" title="Lesson 1" class="md-nav__link">
+      Lesson 1
+    </a>
+  </li>
+
+    
+      
+      
+      
+
   
 
 
@@ -201,11 +225,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="toc">
-        Home
+        Lesson 2
       </label>
     
-    <a href="." title="Home" class="md-nav__link md-nav__link--active">
-      Home
+    <a href="./" title="Lesson 2" class="md-nav__link md-nav__link--active">
+      Lesson 2
     </a>
     
       
@@ -219,15 +243,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#faqs" title="FAQs" class="md-nav__link">
-    FAQs
+  <a href="#intro-to-data-types" title="Intro to Data Types" class="md-nav__link">
+    Intro to Data Types
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creators" title="Creators" class="md-nav__link">
-    Creators
+  <a href="#int" title="Int" class="md-nav__link">
+    Int
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floatdouble" title="Float/Double" class="md-nav__link">
+    Float/Double
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#math-operators" title="Math operators" class="md-nav__link">
+    Math operators
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chars" title="Chars" class="md-nav__link">
+    Chars
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bool" title="Bool" class="md-nav__link">
+    Bool
   </a>
   
 </li>
@@ -238,30 +290,6 @@
   
 </nav>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="cpp1/" title="Lesson 1" class="md-nav__link">
-      Lesson 1
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="cpp2/" title="Lesson 2" class="md-nav__link">
-      Lesson 2
-    </a>
   </li>
 
     
@@ -286,15 +314,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#faqs" title="FAQs" class="md-nav__link">
-    FAQs
+  <a href="#intro-to-data-types" title="Intro to Data Types" class="md-nav__link">
+    Intro to Data Types
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#creators" title="Creators" class="md-nav__link">
-    Creators
+  <a href="#int" title="Int" class="md-nav__link">
+    Int
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floatdouble" title="Float/Double" class="md-nav__link">
+    Float/Double
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#math-operators" title="Math operators" class="md-nav__link">
+    Math operators
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chars" title="Chars" class="md-nav__link">
+    Chars
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bool" title="Bool" class="md-nav__link">
+    Bool
   </a>
   
 </li>
@@ -313,41 +369,37 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/sandiegocode/c++/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
+                  <a href="https://github.com/sandiegocode/c++/edit/master/docs/cpp2.md" title="Edit this page" class="md-icon md-content__icon">edit</a>
                 
                 
-                <h1 id="welcome-to-c">Welcome to C++</h1>
-<p>Here you will learn the basics of c++.</p>
-<h2 id="faqs">FAQs</h2>
-<ul>
-<li>
-<p><strong>Where do I run the code?</strong></p>
-<ul>
-<li>You can either <a href="https://www.tutorialspoint.com/cplusplus/cpp_environment_setup.htm">install python</a>  (Windows, Mac, and Linux) or <a href="http://cpp.sh/">code online</a> (All Platforms ) </li>
-</ul>
-</li>
-<li>
-<p><strong>What if I need help?</strong> </p>
-<ul>
-<li>We're only <a href="mailto:contact@sdcoding.com">an email</a> away :D</li>
-</ul>
-</li>
-<li><strong>What if I'm not a part of SD Code?</strong> <ul>
-<li>Don't worry about it! This resource is free to use by anyone!</li>
-</ul>
-</li>
-<li><strong>Can I host this on my website?</strong><ul>
-<li>Sure, as long as you give credit and link it to our website</li>
-</ul>
-</li>
-<li><strong>How can I contribute?</strong><ul>
-<li>Submit a pull request to the repository on <a href="https://github.com/sandiegocode/python">Github</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="creators">Creators</h2>
-<p><strong>Lead Curriculum Designer</strong>: Sarthak Madhan</p>
-<p><strong>Website Manager</strong>: Ronak Shah</p>
+                <h1 id="lesson-2">Lesson 2</h1>
+<h2 id="intro-to-data-types">Intro to Data Types</h2>
+<p>In C++ there are multiple data types that the programmer can use within their code. Primary ones include: Chars, Int/double/float, Bool. You will see these used through all coding languages and will likely use them within almost all of your coding tasks, so it is important to be familiar with them. </p>
+<h2 id="int">Int</h2>
+<p>Integers are whole number variables/numbers. We also saw the use of them when using user input. We can assign an integer as so:</p>
+<p>int x; /<em> variable an be named anything </em>/</p>
+<p>x=3;</p>
+<h2 id="floatdouble">Float/Double</h2>
+<p>Floats and Doubles are decimal variables/numbers. We can assign a float or double as so:</p>
+<p>double x; /<em> variable can be named anything </em>/</p>
+<p>float y;</p>
+<p>x=3.24;</p>
+<p>y=1.67;</p>
+<h2 id="math-operators">Math operators</h2>
+<p>The C++ compiler also has access to basic math functions. These math functions include:</p>
+<p>/ =division
+* =multiplication
+- =subtraction
++ =addition</p>
+<p>In this way we can use the C++ compiler to do basic math. As we progress further into the programming journey, we will see each more and more usage of integers.</p>
+<h2 id="chars">Chars</h2>
+<p>Chars are character variables. Instead of assigning a variable a number, we can assign variables a character/letter. We can do this by:</p>
+<p>char ch = 'a';  /<em> variable can be named anything </em>/</p>
+<h2 id="bool">Bool</h2>
+<p>Booleans are simply a "switch" with two possible outcomes. They can either be true or false.
+You can declare a bool like this:</p>
+<p>bool gear = true;</p>
+<p>Booleans similar to integers also gain much use as you advance through programming. </p>
                 
                   
                 
@@ -366,20 +418,20 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-        
-          <a href="cpp1/" title="Lesson 1" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../cpp1/" title="Lesson 1" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
                 Lesson 1
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -407,12 +459,12 @@
       
     </div>
     
-      <script src="./assets/javascripts/application-1d6ee6ee6c.js"></script>
+      <script src="../assets/javascripts/application-1d6ee6ee6c.js"></script>
       
       
-      <script>app.initialize({url:{base:"."}})</script>
+      <script>app.initialize({url:{base:".."}})</script>
       
-        <script src="./compiler.js"></script>
+        <script src="../compiler.js"></script>
       
     
     

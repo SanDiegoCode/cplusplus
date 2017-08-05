@@ -19,6 +19,86 @@
             "location": "/#creators", 
             "text": "Lead Curriculum Designer : Sarthak Madhan  Website Manager : Ronak Shah", 
             "title": "Creators"
+        }, 
+        {
+            "location": "/cpp1/", 
+            "text": "Welcome\n\n\nWhat is C++\n\n\nC++is an object oriented programming language that is the one of the most useful languages for software development and is widely used in video game development.\n\n\nStructure\n\n\nC++ is not a scripting language which means that when writing code it must have a set structure. We will learn different forms of this structure later on in the lessons. Until then we can use one set structure to handle most of our needs. This structure is:\n\n\n#include\n iostream \n\n\nusing namespace std;\n\n\nint main(){\n/\n code \n/\n}\n\n\nIntroduction\n\n\nIf you want to start learning this language you will want to start off by learning \nInput and Output\n. \n\n\nOutput\n\n\nOutput is when you(the coder) write code that the computer will display on the screen. For example, if you output \"Hello World\" within your code, then the computer would output \"Hello World\". In c++, the syntax that allows you to do this is:\n\n\ncout\n\"Hello World /\n Or any other word/sentence \n/\"\n;\n\n\nThis code would output anything within the quotations. The basic structure of Output is\n\n\ncout\n\"\"\n;\n\n\nInput\n\n\nInput is when you(the coder) want the user to input something into the computer. For example, you may have the user input a number, then the computer would allow the user to type that number. In c++. the syntax that allows you to do this is: \n\n\nint x;\ncin \nx;\n\n\nThis code would allow the used to input x. The basic structure of Input is\n\n\nint /\n variable\n/\ncin \n/\n the variable that you have defined in int\n/\n\n\nInt\n\n\nThe int(integer) that is used in Input is simply a variable. We will go in-depth about what integers are in a separate lesson. Until just include int when you are doing output.", 
+            "title": "Lesson 1"
+        }, 
+        {
+            "location": "/cpp1/#welcome", 
+            "text": "", 
+            "title": "Welcome"
+        }, 
+        {
+            "location": "/cpp1/#what-is-c", 
+            "text": "C++is an object oriented programming language that is the one of the most useful languages for software development and is widely used in video game development.", 
+            "title": "What is C++"
+        }, 
+        {
+            "location": "/cpp1/#structure", 
+            "text": "C++ is not a scripting language which means that when writing code it must have a set structure. We will learn different forms of this structure later on in the lessons. Until then we can use one set structure to handle most of our needs. This structure is:  #include  iostream   using namespace std;  int main(){\n/  code  /\n}", 
+            "title": "Structure"
+        }, 
+        {
+            "location": "/cpp1/#introduction", 
+            "text": "If you want to start learning this language you will want to start off by learning  Input and Output .", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/cpp1/#output", 
+            "text": "Output is when you(the coder) write code that the computer will display on the screen. For example, if you output \"Hello World\" within your code, then the computer would output \"Hello World\". In c++, the syntax that allows you to do this is:  cout \"Hello World /  Or any other word/sentence  /\" ;  This code would output anything within the quotations. The basic structure of Output is  cout \"\" ;", 
+            "title": "Output"
+        }, 
+        {
+            "location": "/cpp1/#input", 
+            "text": "Input is when you(the coder) want the user to input something into the computer. For example, you may have the user input a number, then the computer would allow the user to type that number. In c++. the syntax that allows you to do this is:   int x;\ncin  x;  This code would allow the used to input x. The basic structure of Input is  int /  variable /\ncin  /  the variable that you have defined in int /", 
+            "title": "Input"
+        }, 
+        {
+            "location": "/cpp1/#int", 
+            "text": "The int(integer) that is used in Input is simply a variable. We will go in-depth about what integers are in a separate lesson. Until just include int when you are doing output.", 
+            "title": "Int"
+        }, 
+        {
+            "location": "/cpp2/", 
+            "text": "Lesson 2\n\n\nIntro to Data Types\n\n\nIn C++ there are multiple data types that the programmer can use within their code. Primary ones include: Chars, Int/double/float, Bool. You will see these used through all coding languages and will likely use them within almost all of your coding tasks, so it is important to be familiar with them. \n\n\nInt\n\n\nIntegers are whole number variables/numbers. We also saw the use of them when using user input. We can assign an integer as so:\n\n\nint x; /\n variable an be named anything \n/\n\n\nx=3;\n\n\nFloat/Double\n\n\nFloats and Doubles are decimal variables/numbers. We can assign a float or double as so:\n\n\ndouble x; /\n variable can be named anything \n/\n\n\nfloat y;\n\n\nx=3.24;\n\n\ny=1.67;\n\n\nMath operators\n\n\nThe C++ compiler also has access to basic math functions. These math functions include:\n\n\n/ =division\n* =multiplication\n- =subtraction\n+ =addition\n\n\nIn this way we can use the C++ compiler to do basic math. As we progress further into the programming journey, we will see each more and more usage of integers.\n\n\nChars\n\n\nChars are character variables. Instead of assigning a variable a number, we can assign variables a character/letter. We can do this by:\n\n\nchar ch = 'a';  /\n variable can be named anything \n/\n\n\nBool\n\n\nBooleans are simply a \"switch\" with two possible outcomes. They can either be true or false.\nYou can declare a bool like this:\n\n\nbool gear = true;\n\n\nBooleans similar to integers also gain much use as you advance through programming.", 
+            "title": "Lesson 2"
+        }, 
+        {
+            "location": "/cpp2/#lesson-2", 
+            "text": "", 
+            "title": "Lesson 2"
+        }, 
+        {
+            "location": "/cpp2/#intro-to-data-types", 
+            "text": "In C++ there are multiple data types that the programmer can use within their code. Primary ones include: Chars, Int/double/float, Bool. You will see these used through all coding languages and will likely use them within almost all of your coding tasks, so it is important to be familiar with them.", 
+            "title": "Intro to Data Types"
+        }, 
+        {
+            "location": "/cpp2/#int", 
+            "text": "Integers are whole number variables/numbers. We also saw the use of them when using user input. We can assign an integer as so:  int x; /  variable an be named anything  /  x=3;", 
+            "title": "Int"
+        }, 
+        {
+            "location": "/cpp2/#floatdouble", 
+            "text": "Floats and Doubles are decimal variables/numbers. We can assign a float or double as so:  double x; /  variable can be named anything  /  float y;  x=3.24;  y=1.67;", 
+            "title": "Float/Double"
+        }, 
+        {
+            "location": "/cpp2/#math-operators", 
+            "text": "The C++ compiler also has access to basic math functions. These math functions include:  / =division\n* =multiplication\n- =subtraction\n+ =addition  In this way we can use the C++ compiler to do basic math. As we progress further into the programming journey, we will see each more and more usage of integers.", 
+            "title": "Math operators"
+        }, 
+        {
+            "location": "/cpp2/#chars", 
+            "text": "Chars are character variables. Instead of assigning a variable a number, we can assign variables a character/letter. We can do this by:  char ch = 'a';  /  variable can be named anything  /", 
+            "title": "Chars"
+        }, 
+        {
+            "location": "/cpp2/#bool", 
+            "text": "Booleans are simply a \"switch\" with two possible outcomes. They can either be true or false.\nYou can declare a bool like this:  bool gear = true;  Booleans similar to integers also gain much use as you advance through programming.", 
+            "title": "Bool"
         }
     ]
 }
